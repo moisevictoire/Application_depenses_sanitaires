@@ -30,8 +30,8 @@ logger = logging.getLogger(__name__)
 
 # ─── Page Config ──────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Health-InsurTech",
-    page_icon="🏥",
+    page_title="Estimateur- Santé",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -174,7 +174,7 @@ def check_password():
     if st.session_state.authenticated:
         return True
 
-    st.markdown("## 🏥 Health-InsurTech — Connexion")
+    st.markdown("## 👨‍⚕️ Estimateur Santé — Connexion")
     st.markdown("*Veuillez vous authentifier pour accéder à l'application.*")
 
     col1, col2, col3 = st.columns([1, 2, 1])
